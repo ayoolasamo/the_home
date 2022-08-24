@@ -1,38 +1,348 @@
 .App {
   text-align: center;
+  margin: 0% !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row{
+  margin: 0% !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*Header CSS starts here*/
+.navbar {
+min-height: 100px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.logowriting {
+  font-size: 2rem;
+  font-weight: bold;
+}
+#themewriting {
+  color: #4373AF;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+.navbar a.active {
+  color: #4373AF;
+  font-weight: bold;
+}
+button  {
+  background-color: #4373AF;
+  border-radius: 15rem !important ;
+  font-size: 1rem!important;
+  border: 0;
   color: white;
+  width:12%;
+  height: 40px;
+}
+/*Header css ends here*/
+
+
+
+/*Banner css starts here*/
+.banner {
+  background-color: #F6F9FE;
+  padding: 3%;
+  margin: 0% !important;
+}
+.bannerwriting {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: left;
+  padding-top:  4%;
+
+  
+}
+/*Banner css ends here*/
+
+
+/*Searchbar css starts here*/
+.searchdiv {
+  z-index: 10;
+  margin-top: -35px !important;
+}
+.searchbar {
+  background-color: white;
+ height: auto;
+ border-radius: 200px;
+ box-shadow: 0 0 30px #ccc;
+ padding: 1%;
+}
+.searchvalue {
+  color: #A5A5A6;
+  font-size: 0.9rem;
+  margin-left: 2%;
+  margin-right: 3%;
+  border: none;
+  margin-top: 2.9% ;
+  margin-bottom: 3%;
+  max-width: 70%;
+  
+  
+  
+}
+.propertyvalue{
+  max-width: 20% !important;
+}
+.searchbar svg {
+  color: #4373AF;
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.searchbtn {
+  width: 90%;
+  height: 40px;
+}
+/*Searchbar css ends here*/
+
+
+
+/* mainfocus css starts here */
+.sech1{
+  color: #4373AF;
+}
+.sech2{
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+}
+.focus{
+  margin:auto;
+  margin-top: 4% !important;
+}
+.focuscard{
+  border:2px solid #A5A5A6 ;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 2% !important;
+  min-height:320px ;
+  padding: 3%;
+  color: #A5A5A6;
+}
+.focuscard:hover{
+  box-shadow: 0 0 30px #ccc;
+  border:none;
+}
+.focusbtn{
+  width:30%;
+  height: 40px;
+  background-color: white !important;
+  color: #4373AF;
+  border:2px solid #4373AF;
+  font-weight: 600;
+}
+/* mainfocus css ends here */
+
+/* property section starts here*/
+.property{
+  margin-top: 4% !important;
+  margin-bottom: 4% !important;
+  align-content: center;
+}
+.propertydetails{
+  margin: 7%;
+}
+.propertycard{
+  border-radius: 20px;
+  margin: auto;
+  min-height:320px ;
+  color: #A5A5A6;
+  padding: 0% !important;
+  box-shadow: 0 0 30px #ccc;
+  margin-top: 3% !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.propertyimg{
+  width: 100%;
+  border-radius: 20px;
+}
+.propertyfacilities{
+  font-size: 85%;
+}
+.propertyicon{
+  background-color:#F6F9FE;
+  font-size:160%;
+  color:#4373AF;
+  padding: 4px;
+ 
+}
+.propertybtn1{
+  background-color: white;
+  color: #4373AF;
+  border: #4373AF 2px solid;
+ 
+}
+.locationicon{
+  color:#4373AF;
+}
+.hearticon path , .propertyicon2{
+  fill:#AAAAAA;
+  font-size: 170%;
+}
+
+/* property section ends here */
+
+
+/* featured property section starts here */
+.featuredproperty{
+  background-color:#F6F9FE;
+  height:650px;
+  align-content: center;
+}
+.featuredproperty .col-md-4{
+width: 39.66% !important;
+
+}
+.featuredpropertycard{
+  background-color: white ;
+  height: 25rem;
+  box-shadow: none;
+  margin-top: 3% !important;
+  margin-bottom: 3% !important;
+}
+.featuredpropertydetails{
+  padding: 9% 4% !important;
+ text-align: left;
+  
+
+}
+.featuredpropertyimg{
+  height:25rem;
+  width: 100%;
+  padding: 0% !important;
+  border-radius:  0px 20px 20px 0px;
+}
+.propertybtn{
+  background-color:#F6F9FE;
+  color: #4373AF;
+  border: #4373AF 2px solid;
+}
+
+
+/* featured property section ends here */
+
+/* Blog section starts here */
+  .blog{
+    min-height: 700px;
+    align-content: center;
   }
-  to {
-    transform: rotate(360deg);
+  .blogcard{
+    border-radius: 20px;
+    min-height:320px ;
+    padding: 0% !important;
+    margin: auto;
+    color: #A5A5A6;
+    text-align: left;
+    box-shadow: 0 0 30px #ccc;
+    margin-top: 4% !important;
   }
+  .blogcontent{
+    padding:10% 12%;
+  }
+  .blogtitle{
+    color: black;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  .readmore{
+    color: #4373AF;
+    font-weight: 500;
+    font-size: 80%;
+  }
+  .morearrow  {
+    color: #4373AF;
+    text-align: right;
+    font-weight: 800;
+    font-size: 100%;
+  
+  }
+  .blogcontent svg{
+    width: 25%;
+  }
+/* Blog section ends here */
+
+/* testimony section starts here */
+.div.row.testimony{
+  margin-right: 0px;
+}
+.testimony{
+  background-color: #F8FBFE;
+  align-content: center;
+  color: #A5A5A6;
+  min-height: 35rem;
+  margin-right: 0px !important;
+}
+.testimonycard{
+  background-color: white;
+  margin:auto;
+  border-radius: 20px;
+  padding: 3%;
+  margin-top: 2% !important;
+}
+.customername{
+  color: black;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.testimonycard p{
+  margin-bottom: 0.5rem;
+}
+.star{
+  color: #FDAC11;
+  margin-right:3%;
+}
+/* testimony section ends here */
+
+/*footer CSS starts here*/
+.footer{
+  padding:5%;
+}
+.logo2{
+font-size: 200%;
+margin-bottom: 8%;
+}
+.footerlogo {
+  text-align: left;
+}
+.footernote{
+  text-align: justify;
+  color: #A5A5A6;
+}
+.footerdets{
+  text-align: left;
+  color: #A5A5A6;
+}
+.blackfont{
+  color: black;
+  font-weight: 600;
+  margin-left: -5% !important;
+  margin-top: 5%;
+  margin-bottom: 12%;
+}
+.footer .row{
+  margin-bottom: 3%;
+}
+.footer .row a{
+  text-decoration: none;
+  color: #A5A5A6;
+}
+/*footer CSS ends starts here*/
+
+@media only screen and (max-width: 968px){
+  /* For mobile phones: */
+  .bannerwriting{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    padding-top:  4%;
+  
+  }
+  .searchvalue{
+    width: 50%;
+  }
+  .focuscard{
+    min-height: auto;
+  }
+
 }
