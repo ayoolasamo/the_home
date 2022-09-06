@@ -34,7 +34,7 @@ Frontend mentorship program</div>
 
 ![screenshot](https://github.com/ayoolasamo/the_home/blob/master/public/images/Screenshot.png)
 
-The demo of this project can be seen on Netlify. It was a wonderful expreience creating this project as I learnt alot about the responsiveness of a webpag and I was able to gain more insights about react props and component. The project is strictly desiged for a desktop and tablet view as the mobile design of the webpage was not provided. 
+The demo of this project can be seen on Netlify. It was a wonderful expreience creating this project as I learnt alot about the responsiveness of a webpage and I was able to gain more insights about react props and component. The project is strictly desiged for a desktop and tablet view as the mobile design of the webpage was not provided. 
 
 
 ### Built With
@@ -48,7 +48,7 @@ The demo of this project can be seen on Netlify. It was a wonderful expreience c
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This web applicatio has a functional navigation bar and various buttons which are not functional as a user story was not provided to tell about the destination of the buttons. Further more, the application has different sections providing various information.
+This web application has a functional navigation bar and various buttons which are not functional as a user story was not provided to tell about the destination of the buttons. Further more, the application has different sections providing various information.
 
 ## Acknowledgements
 
