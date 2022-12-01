@@ -3,39 +3,46 @@
   margin: 0% !important;
 }
 
-.row{
+.row {
   margin: 0% !important;
 }
 
 /*Header CSS starts here*/
 .navbar {
-min-height: 100px;
+  min-height: 100px;
 }
+
 .logowriting {
   font-size: 2rem;
   font-weight: bold;
 }
+
 #themewriting {
   color: #4373AF;
 }
+
 .navbar a {
   text-decoration: none;
   color: black;
-  font-weight: 400;
+  font-weight: 600 !important;
+  padding: 0 20px 0 20px !important;
 }
+
 .navbar a.active {
   color: #4373AF;
   font-weight: bold;
 }
-button  {
+
+button {
   background-color: #4373AF;
-  border-radius: 15rem !important ;
-  font-size: 1rem!important;
+  border-radius: 15rem !important;
+  font-size: 1rem !important;
   border: 0;
   color: white;
-  width:12%;
+  width: 12%;
   height: 40px;
 }
+
 /*Header css ends here*/
 
 
@@ -46,14 +53,16 @@ button  {
   padding: 3%;
   margin: 0% !important;
 }
+
 .bannerwriting {
   font-size: 3rem;
   font-weight: bold;
   text-align: left;
-  padding-top:  4%;
+  padding-top: 4%;
 
-  
+
 }
+
 /*Banner css ends here*/
 
 
@@ -62,122 +71,138 @@ button  {
   z-index: 10;
   margin-top: -35px !important;
 }
+
 .searchbar {
   background-color: white;
- height: auto;
- border-radius: 200px;
- box-shadow: 0 0 30px #ccc;
- padding: 1%;
+  height: auto;
+  border-radius: 200px;
+  box-shadow: 0 0 30px #ccc;
+  padding: 1%;
 }
+
 .searchvalue {
   color: #A5A5A6;
   font-size: 0.9rem;
   margin-left: 2%;
   margin-right: 3%;
   border: none;
-  margin-top: 2.9% ;
+  margin-top: 2.9%;
   margin-bottom: 3%;
   max-width: 70%;
-  
-  
-  
+
+
+
 }
-.propertyvalue{
+
+.propertyvalue {
   max-width: 20% !important;
 }
+
 .searchbar svg {
   color: #4373AF;
   font-size: 20px;
 }
 
 .searchbtn {
-  width: 90%;
+  width: 45%;
   height: 40px;
 }
+
 /*Searchbar css ends here*/
 
 
 
 /* mainfocus css starts here */
-.sech1{
+.sech1 {
   color: #4373AF;
 }
-.sech2{
-  font-size: 2rem;
-  font-weight: 600;
+
+.sech2 {
+  font-size: 1.6rem;
+  font-weight: 700;
   color: black;
 }
-.focus{
-  margin:auto;
+
+.focus {
+  margin: auto;
   margin-top: 4% !important;
 }
-.focuscard{
-  border:2px solid #A5A5A6 ;
+
+.focuscard {
+  border: 2px solid #A5A5A6;
   border-radius: 20px;
   margin: auto;
   margin-top: 2% !important;
-  min-height:320px ;
+  min-height: 320px;
   padding: 3%;
   color: #A5A5A6;
 }
-.focuscard:hover{
+
+.focuscard:hover {
   box-shadow: 0 0 30px #ccc;
-  border:none;
+  border: none;
 }
-.focusbtn{
-  width:30%;
+
+.focusbtn {
+  width: 30%;
   height: 40px;
   background-color: white !important;
   color: #4373AF;
-  border:2px solid #4373AF;
+  border: 2px solid #4373AF;
   font-weight: 600;
 }
+
 /* mainfocus css ends here */
 
 /* property section starts here*/
-.property{
+.property {
   margin-top: 4% !important;
   margin-bottom: 4% !important;
   align-content: center;
 }
-.propertydetails{
+
+.propertydetails {
   margin: 7%;
 }
-.propertycard{
+
+.propertycard {
   border-radius: 20px;
   margin: auto;
-  min-height:320px ;
+  min-height: 320px;
   color: #A5A5A6;
   padding: 0% !important;
   box-shadow: 0 0 30px #ccc;
   margin-top: 3% !important;
 }
 
-.propertyimg{
+.propertyimg {
   width: 100%;
   border-radius: 20px;
 }
-.propertyfacilities{
-  font-size: 85%;
+
+
+
+.propertyicon {
+  background-color: #F6F9FE;
+  font-size: 140%;
+  color: #4373AF;
+  
 }
-.propertyicon{
-  background-color:#F6F9FE;
-  font-size:160%;
-  color:#4373AF;
-  padding: 4px;
- 
-}
-.propertybtn1{
+
+.propertybtn1 {
   background-color: white;
   color: #4373AF;
   border: #4373AF 2px solid;
- 
+
 }
-.locationicon{
-  color:#4373AF;
+
+.locationicon {
+  color: #4373AF;
 }
-.hearticon path , .propertyicon2{
-  fill:#AAAAAA;
+
+.hearticon path,
+.propertyicon2 {
+  fill: #AAAAAA;
   font-size: 170%;
 }
 
@@ -185,36 +210,40 @@ button  {
 
 
 /* featured property section starts here */
-.featuredproperty{
-  background-color:#F6F9FE;
-  height:650px;
+.featuredproperty {
+  background-color: #F6F9FE;
   align-content: center;
 }
-.featuredproperty .col-md-4{
-width: 39.66% !important;
+
+.featuredproperty .col-md-4 {
+  width: 39.66% !important;
 
 }
-.featuredpropertycard{
-  background-color: white ;
-  height: 25rem;
+
+.featuredpropertycard {
+  background-color: white;
+  /* height: 25rem; */
   box-shadow: none;
   margin-top: 3% !important;
   margin-bottom: 3% !important;
 }
-.featuredpropertydetails{
-  padding: 9% 4% !important;
- text-align: left;
-  
+
+.featuredpropertydetails {
+ 
+  text-align: left;
+
 
 }
-.featuredpropertyimg{
-  height:25rem;
+
+.featuredpropertyimg {
+  /* height: 25rem; */
   width: 100%;
   padding: 0% !important;
-  border-radius:  0px 20px 20px 0px;
+  border-radius: 0px 20px 20px 0px;
 }
-.propertybtn{
-  background-color:#F6F9FE;
+
+.propertybtn {
+  background-color: #F6F9FE;
   color: #4373AF;
   border: #4373AF 2px solid;
 }
@@ -223,126 +252,154 @@ width: 39.66% !important;
 /* featured property section ends here */
 
 /* Blog section starts here */
-  .blog{
-    min-height: 700px;
-    align-content: center;
-  }
-  .blogcard{
-    border-radius: 20px;
-    min-height:320px ;
-    padding: 0% !important;
-    margin: auto;
-    color: #A5A5A6;
-    text-align: left;
-    box-shadow: 0 0 30px #ccc;
-    margin-top: 4% !important;
-  }
-  .blogcontent{
-    padding:10% 12%;
-  }
-  .blogtitle{
-    color: black;
-    font-weight: 600;
-    font-size: 1.5rem;
-  }
-  .readmore{
-    color: #4373AF;
-    font-weight: 500;
-    font-size: 80%;
-  }
-  .morearrow  {
-    color: #4373AF;
-    text-align: right;
-    font-weight: 800;
-    font-size: 100%;
-  
-  }
-  .blogcontent svg{
-    width: 25%;
-  }
+.blog {
+  min-height: 700px;
+  align-content: center;
+}
+
+.blogcard {
+  border-radius: 20px;
+  min-height: 320px;
+  padding: 0% !important;
+  margin: auto;
+  color: #A5A5A6;
+  text-align: left;
+  box-shadow: 0 0 30px #ccc;
+  margin-top: 4% !important;
+}
+
+.blogtitle {
+  color: black;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.readmore {
+  color: #4373AF;
+  font-weight: 500;
+  font-size: 80%;
+  text-align: left;
+  padding: 0% !important;
+}
+
+.morearrow {
+  color: #4373AF;
+  text-align: right;
+  font-weight: 800;
+  font-size: 100%;
+
+}
+
+.blogcontent svg {
+  width: 25%;
+}
+
 /* Blog section ends here */
 
 /* testimony section starts here */
-.div.row.testimony{
+.div.row.testimony {
   margin-right: 0px;
 }
-.testimony{
+
+.testimony {
   background-color: #F8FBFE;
   align-content: center;
   color: #A5A5A6;
   min-height: 35rem;
   margin-right: 0px !important;
 }
-.testimonycard{
+
+.testimonycard {
   background-color: white;
-  margin:auto;
+  margin: auto;
   border-radius: 20px;
   padding: 3%;
   margin-top: 2% !important;
 }
-.customername{
+
+.customername {
   color: black;
   font-weight: 400;
   font-size: 2rem;
 }
-.testimonycard p{
+
+.testimonycard p {
   margin-bottom: 0.5rem;
 }
-.star{
+
+.star {
   color: #FDAC11;
-  margin-right:3%;
+  margin-right: 3%;
 }
+
 /* testimony section ends here */
 
 /*footer CSS starts here*/
-.footer{
-  padding:5%;
+.footer {
+  padding: 5%;
 }
-.logo2{
-font-size: 200%;
-margin-bottom: 8%;
+
+.logo2 {
+  font-size: 200%;
+  margin-bottom: 8%;
 }
+
 .footerlogo {
   text-align: left;
 }
-.footernote{
+
+.footernote {
   text-align: justify;
   color: #A5A5A6;
 }
-.footerdets{
+
+.footerdets {
   text-align: left;
   color: #A5A5A6;
 }
-.blackfont{
+
+.blackfont {
   color: black;
   font-weight: 600;
   margin-left: -5% !important;
   margin-top: 5%;
   margin-bottom: 12%;
 }
-.footer .row{
+
+.footer .row {
   margin-bottom: 3%;
 }
-.footer .row a{
+
+.footer .row a {
   text-decoration: none;
   color: #A5A5A6;
 }
+
 /*footer CSS ends starts here*/
 
-@media only screen and (max-width: 968px){
+@media only screen and (max-width: 968px) {
+
   /* For mobile phones: */
-  .bannerwriting{
+  .bannerwriting {
     font-size: 2rem;
     font-weight: bold;
     text-align: left;
-    padding-top:  4%;
-  
+    padding-top: 4%;
+
   }
-  .searchvalue{
+
+  .searchvalue {
     width: 50%;
   }
-  .focuscard{
+
+  .focuscard {
     min-height: auto;
   }
 
+}
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+    width: 31% !important;
+  }
 }
