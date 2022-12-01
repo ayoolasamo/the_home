@@ -34,7 +34,7 @@ Frontend mentorship program</div>
 
 ![screenshot](https://github.com/ayoolasamo/the_home/blob/master/public/images/Screenshot.png)
 
-The demo of this project can be seen on Netlify. It was a wonderful expreience creating this project as I learnt alot about the responsiveness of a webpage and I was able to gain more insights about react props and component. The project is strictly desiged for a desktop and tablet view as the mobile design of the webpage was not provided. 
+The demo of this project can be seen on Netlify. It was a wonderful expreience creating this project as I learnt alot about the responsiveness of a webpage and I was able to gain more insights about react props and components. 
 
 
 ### Built With
