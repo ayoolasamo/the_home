@@ -1,7 +1,11 @@
 .App {
   text-align: center;
   margin: 0% !important;
+  max-width: 2580px;
+
+  
 }
+
 
 .row {
   margin: 0% !important;
