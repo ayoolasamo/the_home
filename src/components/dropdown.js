@@ -1,5 +1,4 @@
 import React from "react";
-import { FaBeer } from "react-icons/fa";
 const Dropdown = ({ value, onchange, data, placeholder }) => {
     return (
         <select value={value} onChange={onchange} className="searchvalue">

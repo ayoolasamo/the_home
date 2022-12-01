@@ -66,7 +66,7 @@ const Searchbar = () => {
                         ]}
                     />
                 </div>
-                <div className="col-5 col-lg-3 m-auto" >
+                <div className="col-md-2 col-3 col-lg-2 m-auto" >
                     <button className="searchbtn ">Search</button>
                 </div>
             </div>
